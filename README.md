@@ -45,6 +45,7 @@ The following **additional** features are implemented:
    * [x] Home Timeline
    * [x] Mention Timeline
    * [x] User Timeline
+* [x] Clickable spans display profile of the username which is tapped
 
 ## Video Walkthrough
 
