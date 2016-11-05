@@ -51,7 +51,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://cloud.githubusercontent.com/assets/22045135/20033990/7374e800-a36c-11e6-9314-a36b25b5b2a3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Video walkthrough with Clickable Spans implemenation
+
+<img src='https://cloud.githubusercontent.com/assets/22045135/20033991/86435d22-a36c-11e6-8821-7112f7b9daf4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
