@@ -171,6 +171,14 @@ public class TweetsArrayAdapter extends RecyclerView.Adapter<TweetsArrayAdapter.
                                     UserTimelineFetcher.setMinIdAvailable();
                                     ((TwitterActions.OnUserProfileView) mContext).onUserProfile((tweet.getUser()));
                                 }
+                            }).
+                    addPattern(Pattern.compile("\\#(\\w+)"), Color.parseColor("#1DA1F2"),
+                            new PatternEditableBuilder.SpannableClickedListener() {
+                                @Override
+                                public void onSpanClicked(String text) {
+                                    Toast.makeText(mContext, "Clicked hashtag: " + text,
+                                            Toast.LENGTH_SHORT).show();
+                                }
                             }).into(tvBody);
             tvTimeAgo.setText(tweet.getRelativeCreatedAt());
             tvRetweetCount.setText(String.valueOf(tweet.getRetweetCount()));
